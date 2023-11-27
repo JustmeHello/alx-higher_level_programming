@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 number = 98
-"%s Battery street\n" % number
+printf(number, "Battery street"\n)
