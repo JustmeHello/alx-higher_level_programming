@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 number = 98
-printf(number, "Battery street"\n)
+printf(f"{number} Battery street\n")
