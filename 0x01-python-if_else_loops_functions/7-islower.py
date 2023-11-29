@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 def islower(c):
-    for char in s:
+    modified_string = ""
+    for char in c:
         if ord('a') <= ord(char) <= ord('z'):
             uppercase_char = chr(ord(char) - 32)
-            print(uppercase_char, end="")
+            modified_string += uppercase_char
         else:
-            print(char, end="")
-    print()
+            modified_string += char
+    return modified_string
