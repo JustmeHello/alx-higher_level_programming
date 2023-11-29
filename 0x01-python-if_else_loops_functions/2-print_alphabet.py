@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+output = ""
 for i in range(ord('a'), ord('z') + 1):
-    print(chr(i), end="")
-print()
+    output += chr(i)
+
+print(output)
